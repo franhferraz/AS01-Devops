@@ -14,9 +14,9 @@ describe('Testes da aplicação Express', () => {
     expect(res.statusCode).toEqual(404);
   });
 
-  it('Deve verificar se a porta 3000 está configurada corretamente', () => {
-    const port = process.env.PORT || 3000;
-    expect(port).toBe(3000);
+  it('Deve verificar se a porta 4000 está configurada corretamente', () => {
+    const port = process.env.PORT || 4000;
+    expect(port).toBe(4000);
   });
 
   it('Deve garantir que a resposta contém a palavra Olá', async () => {
